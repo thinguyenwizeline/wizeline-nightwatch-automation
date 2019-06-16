@@ -1,0 +1,24 @@
+{
+  "name": "wizeline-nightwatch-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinguyenwizeline/wizeline-nightwatch-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinguyenwizeline/wizeline-nightwatch-automation/issues"
+  },
+  "homepage": "https://github.com/thinguyenwizeline/wizeline-nightwatch-automation#readme",
+  "devDependencies": {
+    "chromedriver": "^75.0.0",
+    "nightwatch": "^1.1.12"
+  }
+}
