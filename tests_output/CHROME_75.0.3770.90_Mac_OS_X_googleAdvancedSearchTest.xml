@@ -5,9 +5,9 @@
 
   <testsuite name="googleAdvancedSearchTest"
     errors="0" failures="0" hostname="" id="" package="googleAdvancedSearchTest" skipped="0"
-    tests="1" time="4.003" timestamp="">
+    tests="1" time="3.393" timestamp="">
   
-    <testcase name="Google advanced search: Wizeline" classname="googleAdvancedSearchTest" time="4.003" assertions="0">
+    <testcase name="Google advanced search: Wizeline" classname="googleAdvancedSearchTest" time="3.393" assertions="0">
     </testcase>
   
 
