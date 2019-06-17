@@ -2,16 +2,14 @@ module.exports = {
     'Google advanced search: Wizeline': function(browser){
         const mainQuery = "Wizeline";
        
-        const page = browser.page.googleAdvancedSearchObjects;
+        const page = browser.page.googleAdvancedSearchObjects();
 
         page
                .navigate()
                .setValue('@mainQueryInput',mainQuery)
-               .click(languageDropdownOpenerSelector)
-               .click(languageDropdownValueSelector)
-               .click(lastUpdateDropdownOpenerSelector)
-               .click(lastUpdateDropdownValueSelector)
-               .click(submitButtonSelector)
+               .selectFilter('@languageDropdown','lang_it')
+               .selectFilter('@lastUpdateDropdown','m')
+               .search()
                .saveScreenshot('tests-output/google.png');
     }
 
