@@ -4,6 +4,8 @@ module.exports = {
        
         const page = browser.page.googleAdvancedSearchObjects();
 
+        console.log("hello");
+
         page
                .navigate()
                .setValue('@mainQueryInput',mainQuery)
