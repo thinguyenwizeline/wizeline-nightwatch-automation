@@ -5,6 +5,7 @@ module.exports = {
         const page = browser.page.googleAdvancedSearchObjects();
 
         console.log("hello");
+        console.log("Travis testing 28 June");
 
         page
                .navigate()
